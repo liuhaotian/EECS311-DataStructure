@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C905A223-6719-4998-8053-FEF34C4C9F8E}"
+	ProjectSection(SolutionItems) = preProject
+		EECS 311 Assignment 1.vsmdi = EECS 311 Assignment 1.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment 1", "Assignment 1\Assignment 1.csproj", "{46E95578-1CE8-484F-89A0-DCD5DA6488EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTests", "QueueTests\QueueTests.csproj", "{3555AF2D-5F82-49C0-9753-327693B95E1B}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EECS 311 Assignment 1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E95578-1CE8-484F-89A0-DCD5DA6488EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E95578-1CE8-484F-89A0-DCD5DA6488EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E95578-1CE8-484F-89A0-DCD5DA6488EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E95578-1CE8-484F-89A0-DCD5DA6488EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3555AF2D-5F82-49C0-9753-327693B95E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3555AF2D-5F82-49C0-9753-327693B95E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3555AF2D-5F82-49C0-9753-327693B95E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3555AF2D-5F82-49C0-9753-327693B95E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\bin\Debug\QueueTests.dll
+C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\bin\Debug\QueueTests.pdb
+C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\bin\Debug\Assignment 1.exe
+C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\bin\Debug\Assignment 1.pdb
+C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\obj\Debug\QueueTests.dll
+C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\obj\Debug\QueueTests.pdb
