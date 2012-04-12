@@ -10,6 +10,19 @@ namespace Assignment_1
     /// </summary>
     public class LinkedListQueue : Queue
     {
+        private class doubleLLC {
+            public doubleLLC prev;
+            public doubleLLC next;
+            public object o;
+        }
+        private doubleLLC head;
+        private doubleLLC tail = new doubleLLC();
+        private int count = 0;
+        public LinkedListQueue()
+        {
+            head = tail;
+        }
+
         /// <summary>
         /// Add object to end of queue
         /// </summary>
@@ -17,7 +30,12 @@ namespace Assignment_1
         public override void Enqueue(object o)
         {
             // Remove this line when you implement this method
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            tail.o = o;
+            tail.next = new doubleLLC();
+            tail.next.prev = tail;
+            tail = tail.next;
+            count++;
         }
 
         /// <summary>
@@ -27,7 +45,21 @@ namespace Assignment_1
         public override object Dequeue()
         {
             // Remove this line when you implement this mehtod
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            object ret;
+            if (head.o != null)
+                ret = head.o;
+            else
+                throw new QueueEmptyException();
+            if (head.next != null)
+            {
+                head = head.next;
+                head.prev = null;
+            }
+            else
+                head.o = null;
+            count--;
+            return ret;
         }
 
         /// <summary>
@@ -38,7 +70,8 @@ namespace Assignment_1
             get
             {
                 // Remove this line when you fill this method in.
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
+                return count;
             }
         }
 
@@ -52,7 +85,8 @@ namespace Assignment_1
             get
             {
                 // Remove this line when you fill this method in.
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
+                return false;
             }
         }
     }

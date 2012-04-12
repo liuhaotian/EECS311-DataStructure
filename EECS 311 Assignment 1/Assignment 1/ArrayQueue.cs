@@ -10,6 +10,10 @@ namespace Assignment_1
     /// </summary>
     public class ArrayQueue : Queue
     {
+        private int head = 0;
+        private int tail = 0;
+        private object[] arrayQueue = new object[100];
+        
         /// <summary>
         /// Add object to end of queue
         /// </summary>
@@ -17,7 +21,14 @@ namespace Assignment_1
         public override void Enqueue(object o)
         {
             // Remove this line when you implement this method
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if ((head - 1 - tail + arrayQueue.Length) % arrayQueue.Length == 0)
+                throw new QueueFullException();
+            else
+            {
+                arrayQueue[tail] = o;
+                tail = (tail + 1) % arrayQueue.Length;
+            }
         }
 
         /// <summary>
@@ -27,7 +38,12 @@ namespace Assignment_1
         public override object Dequeue()
         {
             // Remove this line when you implement this mehtod
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if (head == tail)
+                throw new QueueEmptyException();
+            object ret = arrayQueue[head];
+            head = (head + 1) % arrayQueue.Length;
+            return ret;
         }
 
         /// <summary>
@@ -37,7 +53,8 @@ namespace Assignment_1
         {
             get { 
                 // Remove this line when you fill this method in.
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
+                return (tail - head + arrayQueue.Length) % arrayQueue.Length;
             }
         }
 
@@ -48,7 +65,18 @@ namespace Assignment_1
         {
             get {
                 // Remove this line when you fill this method in.
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
+                return (head - 1 - tail + arrayQueue.Length) % arrayQueue.Length == 0;
+            }
+        }
+
+        public override bool IsEmpty
+        {
+            get
+            {
+                // Remove this line when you fill this method in.
+                //throw new NotImplementedException();
+                return head == tail;
             }
         }
     }

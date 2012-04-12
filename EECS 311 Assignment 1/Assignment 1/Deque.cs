@@ -11,6 +11,19 @@ namespace Assignment_1
     /// </summary>
     public class Deque
     {
+        private class doubleLLC
+        {
+            public doubleLLC prev;
+            public doubleLLC next;
+            public object o;
+        }
+        private doubleLLC head;
+        private doubleLLC tail = new doubleLLC();
+        private int count = 0;
+        public Deque() {
+            head = tail;
+        }
+
         /// <summary>
         /// Add object to end of queue
         /// </summary>
@@ -18,7 +31,12 @@ namespace Assignment_1
         public void AddFront(object o)
         {
             // Remove this line when you implement this method
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            head.prev = new doubleLLC();
+            head.o = o;
+            head.prev.next = head;
+            head = head.prev;
+            count++;
         }
 
         /// <summary>
@@ -28,7 +46,23 @@ namespace Assignment_1
         public object RemoveFront()
         {
             // Remove this line when you implement this mehtod
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            object ret;
+            if (count == 0)
+                throw new QueueEmptyException();
+            else
+            {
+                ret = head.o;
+                if (head.next != null)
+                {
+                    head = head.next;
+                    head.prev = null;
+                }
+                else
+                    head.o = null;
+                count--;
+            }
+            return ret;
         }
 
         /// <summary>
@@ -38,7 +72,12 @@ namespace Assignment_1
         public void AddEnd(object o)
         {
             // Remove this line when you implement this method
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            tail.next = new doubleLLC();
+            tail.o = o;
+            tail.next.prev = tail;
+            tail = tail.next;
+            count++;
         }
 
         /// <summary>
@@ -48,7 +87,21 @@ namespace Assignment_1
         public object RemoveEnd()
         {
             // Remove this line when you implement this mehtod
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            object ret;
+            if(tail.o != null)
+                ret = tail.o;
+            else
+                throw new QueueEmptyException();
+            if (tail.prev != null)
+            {
+                tail = tail.prev;
+                tail.next = null;
+            }
+            else
+                tail.o = null;
+            count--;
+            return ret;
         }
 
         /// <summary>
@@ -59,7 +112,8 @@ namespace Assignment_1
             get
             {
                 // Remove this line when you fill this method in.
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
+                return count;
             }
         }
 
@@ -71,7 +125,8 @@ namespace Assignment_1
             get
             {
                 // Remove this line when you fill this method in.
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
+                return count == 0;
             }
         }
     }
