@@ -1,0 +1,3 @@
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\New HappyFunBlob\HappyFunBlob\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\Content\obj\x86\Debug\ResolveAssemblyReference.cache

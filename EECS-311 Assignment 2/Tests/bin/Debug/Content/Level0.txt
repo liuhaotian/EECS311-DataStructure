@@ -1,0 +1,6 @@
+#Name	Type	Reference	X	Y	Z	Name	Value	Name	Value	Name	Value
+	Amoeba		50	70	50						
+Start	Orb		50	40	50						
+	Orb		30	50	20						
+	Orb		0	80	0	spinrate	0.03				
+End	Orb		30	110	0	radius	10	color	(0.9 0 0)	Mounted	End.color = color.Green.ToVector3()
