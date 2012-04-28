@@ -19,7 +19,52 @@ namespace HappyFunBlob
         /// </summary>
         public static BSPTree BuildTree(List<GameObject> objects)
         {
-            throw new NotImplementedException("BSPTree.BuildTree() method not yet implemented.");
+            //throw new NotImplementedException("BSPTree.BuildTree() method not yet implemented.");
+            if (objects.Count == 1)
+                return new BSPTreeLeaf(objects[0]);
+            else {
+                // Find the best splitting plane
+                // keep track of the best plane, the index it splits at, and its score
+                int bestScore = 0, bestIndex = 0;
+                Plane bestPlane = new Plane();
+
+                // Try each axis.  To make it easy to iterate, we give you an array called “axes” with
+                // all the axes in it
+                foreach (Vector3 axis in axes)
+                {
+                    SortGameObjects(objects, axis);
+
+                    // Try each possible pair of objects to split between
+                    for ( int i=0; i < objects.Count; i ++) 
+                    {
+                        // Is position i a more balanced split than our current best split?
+                        if (SplitScore(i, objects) > bestScore)
+                        {
+                            // Yes.  Try splitting here
+                            Plane plane = SplittingPlane( objects[ i - 1 ], objects[ i ], axis);
+
+                            if(SplitsAt(objects, i, plane))
+                            {
+                                // This is a better splitting plan and index, so remember it
+                                bestPlane = plane;
+                                bestIndex = i;
+                                bestScore = SplitScore(i, objects);
+                            }
+                        }
+                    }
+                }
+
+                if (bestScore == 0) throw new NoSplitAxisException();
+
+                // We have the best plane actually split the objects along it, build the subtrees
+                // for either side, and make a new tree node from them.
+                SortGameObjects(objects, bestPlane.Normal);
+                BSPTree backTree = BuildTree(objects.GetRange(0, bestIndex));
+                BSPTree frontTree = BuildTree(objects.GetRange(bestIndex, objects.Count - bestIndex));
+                
+                return new BSPTreeInteriorNode(bestPlane, backTree, frontTree);
+            }
+
         }
 
         /// <summary>
@@ -116,7 +161,10 @@ namespace HappyFunBlob
         /// </summary>
         public override void DoAllIntersectingObjects(BoundingBox bbox, TreeFunction function)
         {
-            throw new NotImplementedException("BSPTreeLeaf.DoAllIntersectingObjects() method not yet implemented.");
+            //throw new NotImplementedException("BSPTreeLeaf.DoAllIntersectingObjects() method not yet implemented.");
+            if(GameObject.BoundingBox.Intersects(bbox))
+                function.Invoke(GameObject);
+            
         }
     }
 
@@ -160,7 +208,16 @@ namespace HappyFunBlob
         /// </summary>
         public override void DoAllIntersectingObjects(BoundingBox bbox, TreeFunction function)
         {
-            throw new NotImplementedException("BSPTreeInteriorNode.DoAllIntersectingObjects() method not yet implemented.");
+            //throw new NotImplementedException("BSPTreeInteriorNode.DoAllIntersectingObjects() method not yet implemented.");
+            if (bbox.Intersects(SplitPlane) == PlaneIntersectionType.Front)
+                FrontSubTree.DoAllIntersectingObjects(bbox, function);
+            else if (bbox.Intersects(SplitPlane) == PlaneIntersectionType.Back)
+                BackSubTree.DoAllIntersectingObjects(bbox, function);
+            else
+            {
+                FrontSubTree.DoAllIntersectingObjects(bbox, function);
+                BackSubTree.DoAllIntersectingObjects(bbox, function);
+            }
         }
     }
 
