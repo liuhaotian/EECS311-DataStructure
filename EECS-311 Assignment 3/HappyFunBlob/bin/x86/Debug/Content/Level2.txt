@@ -1,0 +1,32 @@
+#Name	Type	Reference	X	Y	Z	Name	Value	Name	Value	Name	Value
+	Amoeba		0	0	0						
+Start	Orb		50	30	50	color	(0.9 0 0.9)				
+	Orb		30	60	20	color	(0.3 0.4 0.9)				
+	Block		40	45	40	width	60	height	5	depth	30
+						oscillationamplitude	30	oscillationperiod	5	oscillationdirection	(0 0 1)
+	Block		40	45	30	width	5	height	30	depth	50
+						oscillationamplitude	30	oscillationperiod	8	oscillationdirection	(0 1 0)
+	Orb		30	70	-30	color	(0 0 0.5)				
+	Orb		30	80	-80	color	(0 0.2 0.8)				
+	Block		30	70	-50	width	40	height	40	depth	5
+						oscillationamplitude	40	oscillationperiod	8	oscillationdirection	(0 1 0)
+	Block		30	70	-60	width	40	height	40	depth	5
+						oscillationamplitude	40	oscillationperiod	11	oscillationdirection	(0 1 0)
+	Orb		30	140	-90	radius	30	spinrate	0.02		
+	Orb		30	200	-90	color	(0.8 0.2 0)	radius	3		
+	Orb		50	250	-70	oscillationamplitude	60	oscillationperiod	10	oscillationdirection	(0 1 0)
+	Orb		40	350	-40	radius	10				
+	Block		40	330	-40	width	50	height	5	depth	50
+						oscillationamplitude	40	oscillationperiod	5	oscillationdirection	(0 0 1)
+	Orb		40	430	-50	color	(1 0 0)				
+	Orb		80	440	-50	color	(0 1 0)				
+	Block		40	410	-50	width	30	height	5	depth	30
+						oscillationamplitude	40	oscillationperiod	10	oscillationdirection	(0 1 0)
+	Orb		80	470	-50	color	(0 0 1)				
+	Orb		90	500	-40	color	(0 1 0)				
+	Orb		70	530	-60	color	(1 0 0)				
+	Orb		80	560	-50	color	(0 1 0)				
+	Orb		80	600	-50	color	(0 0 1)				
+	Block		100	520	-50	width	5	height	110	depth	50
+						oscillationamplitude	60	oscillationperiod	13	oscillationdirection	(1 0 0)
+End	Orb		30	660	-80	radius	10	color	(0 0.9 0.9)		
