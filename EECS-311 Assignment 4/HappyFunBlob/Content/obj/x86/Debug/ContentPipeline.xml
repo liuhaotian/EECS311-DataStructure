@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>MainFont.spritefont</Source>
+      <Name>MainFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\bin\x86\Debug\Content\MainFont.xnb</Output>
+      <Time>2010-03-28T21:52:01.4119252-05:00</Time>
+    </Item>
+    <Item>
+      <Source>bargraphbar.bmp</Source>
+      <Name>bargraphbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyEnabled">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\bin\x86\Debug\Content\bargraphbar.xnb</Output>
+      <Time>2010-03-28T21:52:01.425926-05:00</Time>
+    </Item>
+    <Item>
+      <Source>gaus2d.jpg</Source>
+      <Name>gaus2d</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ColorKeyEnabled">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\bin\x86\Debug\Content\gaus2d.xnb</Output>
+      <Time>2010-05-26T12:01:56.8479539-05:00</Time>
+    </Item>
+    <Item>
+      <Source>RawTexture.fx</Source>
+      <Name>RawTexture</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\bin\x86\Debug\Content\RawTexture.xnb</Output>
+      <Time>2011-03-07T17:27:45.7161447-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-12-10T16:57:26.6293026-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

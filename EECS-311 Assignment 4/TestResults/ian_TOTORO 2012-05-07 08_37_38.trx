@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6f5075fa-1e66-4ba8-b1f8-567537388353" name="ian@TOTORO 2012-05-07 08:37:38" runUser="Totoro\ian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4086bb99-4879-4a3b-8a59-bbea98ebebc6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ian_TOTORO 2012-05-07 08_37_38">
+      <DeploymentItem filename="C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\bin\x86\Debug\HappyFunBlob.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-07T08:37:38.6428528-05:00" queuing="2012-05-07T08:37:40.1819409-05:00" start="2012-05-07T08:37:40.3219489-05:00" finish="2012-05-07T08:37:41.3370069-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="30" executed="30" passed="18" error="0" failed="12" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MemberRefTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="628853e3-ab3b-3342-4af9-4dedc03eac6d">
+      <Execution id="7a7231a4-0c64-4ed3-8fa5-766546cb28fc" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberRefTest" />
+    </UnitTest>
+    <UnitTest name="LDCountTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="3173ec7c-8657-cbfa-7b23-73980f4cefc5">
+      <Execution id="c3a1bffa-d15c-4c2d-9998-63177fac8e49" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDCountTest" />
+    </UnitTest>
+    <UnitTest name="MemberMethodTest0Arg" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="fa32822c-facb-58d9-bfec-5c55bf7afc36">
+      <Execution id="e626029e-e5e8-4afb-bdcb-843642c16966" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberMethodTest0Arg" />
+    </UnitTest>
+    <UnitTest name="VariableReassignmentTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="91144527-fab2-4f44-b4f9-5c8fb62a75cc">
+      <Execution id="5d1bc4e0-899c-4979-b514-b3f917df464b" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VariableReassignmentTest" />
+    </UnitTest>
+    <UnitTest name="MemberAssignTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="bad66bbd-4821-5dda-2a04-94a374d654d8">
+      <Execution id="f575ea20-4383-4385-b012-cf2fd598ba7d" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberAssignTest" />
+    </UnitTest>
+    <UnitTest name="LDStoreOverwriteTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="9568328b-2cfe-4270-7887-6945be150cfd">
+      <Execution id="82129dcb-0937-4ded-8bd1-9d2154a495d7" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="IndirectAssignmentTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="430e6d44-5c9c-f0f3-69bf-25fc12219deb">
+      <Execution id="3b5c5709-c42c-42dc-b7f4-9a0394806916" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndirectAssignmentTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTCountTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e">
+      <Execution id="6e96f2de-68a9-44c4-942e-faa6993b0a4d" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreAndLookupTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="a2571d66-825b-577c-328f-a9d27c85a47e">
+      <Execution id="d1590117-1701-4fa7-a278-a05f4789989c" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableParentTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="77f92430-e15d-1805-2a5f-3bac8352d656">
+      <Execution id="e78bfd30-1404-4f5a-ba41-eb5488ccc1be" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="MemberMethodTest2Args" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="e33f2b20-ccc1-059e-ec52-d50703948c5f">
+      <Execution id="4e03ea76-dfde-462a-955f-8e893d7355ae" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberMethodTest2Args" />
+    </UnitTest>
+    <UnitTest name="LDStoreAndLookupTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="edc32e9c-1d9d-f859-e9bd-6fe889c0416d">
+      <Execution id="46959e21-18f6-4c2a-907f-3fec1dc69b7f" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="d1ac431c-9b5d-62c2-4a87-7869fa50817e">
+      <Execution id="83d3ac70-da40-4523-8757-23ebb202a896" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTCountTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="e1e81ca3-826b-3286-bf15-706298b51fdd">
+      <Execution id="6e7e746e-ce22-42e9-91bd-1408b445d109" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTCountTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreOverwriteTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="9249a21f-90aa-8e95-edbf-7a2477a28138">
+      <Execution id="89a09a3b-40ac-4ded-851c-d0c5a535430f" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="RunSumTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="aca1b77d-c79d-e9db-ee09-039d293fc907">
+      <Execution id="8271c28c-c50b-4b9d-afc7-e66db9d4befe" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.OperatorExpressionTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunSumTest" />
+    </UnitTest>
+    <UnitTest name="RunProductTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="1da900d2-8ad5-dec6-3f92-43659a67403f">
+      <Execution id="2c8adf7e-891a-4a54-abfe-c988e9846bf9" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.OperatorExpressionTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunProductTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreOverwriteTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="c7ba8f42-0ec1-9118-d9bb-e81b4295e097">
+      <Execution id="5f519489-8ef2-4dca-b0a5-75a555151d01" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableConstructorTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="b7f32841-9164-ff19-cb23-03474a5b68f2">
+      <Execution id="eb9694c0-ad31-480a-adc5-4e9f2075a62b" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreAndLookupTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="92a56d21-7b45-c992-2814-b0dff9b5ca00">
+      <Execution id="eb6da85d-f213-478e-b276-c0b46065cf6c" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTOverflowThrowsHashtableFullExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="6acd591f-d4d7-26f6-6464-9cb81148900b">
+      <Execution id="105b4cfe-a0f6-4c0b-b6fe-ea8900a84935" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTOverflowThrowsHashtableFullExceptionTest" />
+    </UnitTest>
+    <UnitTest name="MemberMethodTest1Arg" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="90c0feba-8300-4d5d-9569-c2383b974ca7">
+      <Execution id="855abafa-acf0-4b30-b30a-4d6194e2d201" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberMethodTest1Arg" />
+    </UnitTest>
+    <UnitTest name="LDLookupThrowsDictionaryNotFoundExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="372d763a-4db8-c506-ed45-3a0f1efa9472">
+      <Execution id="25bc6278-bc89-4252-a7cf-b1cc4ea62166" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="RunNegationTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="8b8aa821-1750-4662-4440-5fb9f59e3453">
+      <Execution id="8a115420-4143-464a-8754-7c750ef2c255" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.OperatorExpressionTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunNegationTest" />
+    </UnitTest>
+    <UnitTest name="ListDictionaryConstructorTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="d354d05d-5a14-6853-83aa-d07785f73845">
+      <Execution id="7b0b4f2b-171b-4f6c-a1cb-b525482867ab" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListDictionaryConstructorTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableConstructorTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="f58fbbb2-c088-fc25-febb-1f85ba59f24c">
+      <Execution id="a41acb61-991d-4702-88ec-a3c874b2fa67" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableParentTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="396f85f9-d3a1-d602-2d10-d3e11e085d0a">
+      <Execution id="afe837ea-59b9-41f8-89cb-2c12404fb3de" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="VariableAssignTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="c0df9bb7-afa1-94fd-32c4-7ccca67ca1d6">
+      <Execution id="aacb603c-bb01-467f-9496-cd3eca3ad5ff" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VariableAssignTest" />
+    </UnitTest>
+    <UnitTest name="RunTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="f5a341c8-0f31-edff-6652-5dd107e4450c">
+      <Execution id="9fc16310-e4aa-4ee1-85fc-87a3adefb911" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableReferenceTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="e574ba46-8e58-1576-7c9a-4a505f9c4e46">
+      <Execution id="73c9cbf5-3f61-451a-a5d8-2a16f1e85a46" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1da900d2-8ad5-dec6-3f92-43659a67403f" executionId="2c8adf7e-891a-4a54-abfe-c988e9846bf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" executionId="c3a1bffa-d15c-4c2d-9998-63177fac8e49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="372d763a-4db8-c506-ed45-3a0f1efa9472" executionId="25bc6278-bc89-4252-a7cf-b1cc4ea62166" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" executionId="afe837ea-59b9-41f8-89cb-2c12404fb3de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="430e6d44-5c9c-f0f3-69bf-25fc12219deb" executionId="3b5c5709-c42c-42dc-b7f4-9a0394806916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="628853e3-ab3b-3342-4af9-4dedc03eac6d" executionId="7a7231a4-0c64-4ed3-8fa5-766546cb28fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6acd591f-d4d7-26f6-6464-9cb81148900b" executionId="105b4cfe-a0f6-4c0b-b6fe-ea8900a84935" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f92430-e15d-1805-2a5f-3bac8352d656" executionId="e78bfd30-1404-4f5a-ba41-eb5488ccc1be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b8aa821-1750-4662-4440-5fb9f59e3453" executionId="8a115420-4143-464a-8754-7c750ef2c255" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c0feba-8300-4d5d-9569-c2383b974ca7" executionId="855abafa-acf0-4b30-b30a-4d6194e2d201" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91144527-fab2-4f44-b4f9-5c8fb62a75cc" executionId="5d1bc4e0-899c-4979-b514-b3f917df464b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9249a21f-90aa-8e95-edbf-7a2477a28138" executionId="89a09a3b-40ac-4ded-851c-d0c5a535430f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" executionId="eb6da85d-f213-478e-b276-c0b46065cf6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9568328b-2cfe-4270-7887-6945be150cfd" executionId="82129dcb-0937-4ded-8bd1-9d2154a495d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2571d66-825b-577c-328f-a9d27c85a47e" executionId="d1590117-1701-4fa7-a278-a05f4789989c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aca1b77d-c79d-e9db-ee09-039d293fc907" executionId="8271c28c-c50b-4b9d-afc7-e66db9d4befe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7f32841-9164-ff19-cb23-03474a5b68f2" executionId="eb9694c0-ad31-480a-adc5-4e9f2075a62b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bad66bbd-4821-5dda-2a04-94a374d654d8" executionId="f575ea20-4383-4385-b012-cf2fd598ba7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" executionId="6e96f2de-68a9-44c4-942e-faa6993b0a4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0df9bb7-afa1-94fd-32c4-7ccca67ca1d6" executionId="aacb603c-bb01-467f-9496-cd3eca3ad5ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" executionId="5f519489-8ef2-4dca-b0a5-75a555151d01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" executionId="83d3ac70-da40-4523-8757-23ebb202a896" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d354d05d-5a14-6853-83aa-d07785f73845" executionId="7b0b4f2b-171b-4f6c-a1cb-b525482867ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1e81ca3-826b-3286-bf15-706298b51fdd" executionId="6e7e746e-ce22-42e9-91bd-1408b445d109" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e33f2b20-ccc1-059e-ec52-d50703948c5f" executionId="4e03ea76-dfde-462a-955f-8e893d7355ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" executionId="73c9cbf5-3f61-451a-a5d8-2a16f1e85a46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" executionId="46959e21-18f6-4c2a-907f-3fec1dc69b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" executionId="a41acb61-991d-4702-88ec-a3c874b2fa67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5a341c8-0f31-edff-6652-5dd107e4450c" executionId="9fc16310-e4aa-4ee1-85fc-87a3adefb911" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa32822c-facb-58d9-bfec-5c55bf7afc36" executionId="e626029e-e5e8-4afb-bdcb-843642c16966" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2c8adf7e-891a-4a54-abfe-c988e9846bf9" testId="1da900d2-8ad5-dec6-3f92-43659a67403f" testName="RunProductTest" computerName="TOTORO" duration="00:00:00.0800574" startTime="2012-05-07T08:37:40.3789521-05:00" endTime="2012-05-07T08:37:40.9089825-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c8adf7e-891a-4a54-abfe-c988e9846bf9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.OperatorExpressionTest.RunProductTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.OperatorExpression.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 279
+   at DictionaryTests.OperatorExpressionTest.RunProductTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\OperatorExpressionTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3a1bffa-d15c-4c2d-9998-63177fac8e49" testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" testName="LDCountTest" computerName="TOTORO" duration="00:00:00.0049370" startTime="2012-05-07T08:37:40.9139827-05:00" endTime="2012-05-07T08:37:40.9249834-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3a1bffa-d15c-4c2d-9998-63177fac8e49">
+    </UnitTestResult>
+    <UnitTestResult executionId="25bc6278-bc89-4252-a7cf-b1cc4ea62166" testId="372d763a-4db8-c506-ed45-3a0f1efa9472" testName="LDLookupThrowsDictionaryNotFoundExceptionTest" computerName="TOTORO" duration="00:00:00.0015228" startTime="2012-05-07T08:37:40.9339839-05:00" endTime="2012-05-07T08:37:40.9399842-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25bc6278-bc89-4252-a7cf-b1cc4ea62166">
+    </UnitTestResult>
+    <UnitTestResult executionId="afe837ea-59b9-41f8-89cb-2c12404fb3de" testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" testName="OpenAddressedHashtableParentTest" computerName="TOTORO" duration="00:00:00.0004704" startTime="2012-05-07T08:37:40.9419843-05:00" endTime="2012-05-07T08:37:40.9479847-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afe837ea-59b9-41f8-89cb-2c12404fb3de">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b5c5709-c42c-42dc-b7f4-9a0394806916" testId="430e6d44-5c9c-f0f3-69bf-25fc12219deb" testName="IndirectAssignmentTest" computerName="TOTORO" duration="00:00:00.0044693" startTime="2012-05-07T08:37:40.9499848-05:00" endTime="2012-05-07T08:37:40.9579853-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b5c5709-c42c-42dc-b7f4-9a0394806916">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableAssignmentTest.IndirectAssignmentTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.VariableAssignment.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 134
+   at DictionaryTests.VariableAssignmentTest.IndirectAssignmentTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\VariableAssignmentTest.cs:line 114
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a7231a4-0c64-4ed3-8fa5-766546cb28fc" testId="628853e3-ab3b-3342-4af9-4dedc03eac6d" testName="MemberRefTest" computerName="TOTORO" duration="00:00:00.0036597" startTime="2012-05-07T08:37:40.9669858-05:00" endTime="2012-05-07T08:37:40.9749862-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a7231a4-0c64-4ed3-8fa5-766546cb28fc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberRefTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.MemberReference.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 167
+   at DictionaryTests.MemberAssignmentTest.MemberRefTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\MemberAssignmentTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="105b4cfe-a0f6-4c0b-b6fe-ea8900a84935" testId="6acd591f-d4d7-26f6-6464-9cb81148900b" testName="OpenHTOverflowThrowsHashtableFullExceptionTest" computerName="TOTORO" duration="00:00:00.0012526" startTime="2012-05-07T08:37:40.9819866-05:00" endTime="2012-05-07T08:37:40.9869869-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="105b4cfe-a0f6-4c0b-b6fe-ea8900a84935">
+    </UnitTestResult>
+    <UnitTestResult executionId="e78bfd30-1404-4f5a-ba41-eb5488ccc1be" testId="77f92430-e15d-1805-2a5f-3bac8352d656" testName="ChainedHashtableParentTest" computerName="TOTORO" duration="00:00:00.0004203" startTime="2012-05-07T08:37:40.9909871-05:00" endTime="2012-05-07T08:37:40.9949874-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e78bfd30-1404-4f5a-ba41-eb5488ccc1be">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a115420-4143-464a-8754-7c750ef2c255" testId="8b8aa821-1750-4662-4440-5fb9f59e3453" testName="RunNegationTest" computerName="TOTORO" duration="00:00:00.0017931" startTime="2012-05-07T08:37:40.9969875-05:00" endTime="2012-05-07T08:37:41.0019878-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a115420-4143-464a-8754-7c750ef2c255">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.OperatorExpressionTest.RunNegationTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.OperatorExpression.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 279
+   at DictionaryTests.OperatorExpressionTest.RunNegationTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\OperatorExpressionTest.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="855abafa-acf0-4b30-b30a-4d6194e2d201" testId="90c0feba-8300-4d5d-9569-c2383b974ca7" testName="MemberMethodTest1Arg" computerName="TOTORO" duration="00:00:00.0022489" startTime="2012-05-07T08:37:41.0089882-05:00" endTime="2012-05-07T08:37:41.0159886-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="855abafa-acf0-4b30-b30a-4d6194e2d201">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberMethodTest1Arg threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.MethodCall.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 252
+   at DictionaryTests.MemberAssignmentTest.MemberMethodTest1Arg() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\MemberAssignmentTest.cs:line 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d1bc4e0-899c-4979-b514-b3f917df464b" testId="91144527-fab2-4f44-b4f9-5c8fb62a75cc" testName="VariableReassignmentTest" computerName="TOTORO" duration="00:00:00.0015071" startTime="2012-05-07T08:37:41.0219889-05:00" endTime="2012-05-07T08:37:41.0269892-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d1bc4e0-899c-4979-b514-b3f917df464b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableAssignmentTest.VariableReassignmentTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.VariableAssignment.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 134
+   at DictionaryTests.VariableAssignmentTest.VariableReassignmentTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\VariableAssignmentTest.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89a09a3b-40ac-4ded-851c-d0c5a535430f" testId="9249a21f-90aa-8e95-edbf-7a2477a28138" testName="ChainedHTStoreOverwriteTest" computerName="TOTORO" duration="00:00:00.0009496" startTime="2012-05-07T08:37:41.0299894-05:00" endTime="2012-05-07T08:37:41.0409900-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89a09a3b-40ac-4ded-851c-d0c5a535430f">
+    </UnitTestResult>
+    <UnitTestResult executionId="eb6da85d-f213-478e-b276-c0b46065cf6c" testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" testName="ChainedHTStoreAndLookupTest" computerName="TOTORO" duration="00:00:00.0005993" startTime="2012-05-07T08:37:41.0449902-05:00" endTime="2012-05-07T08:37:41.0499905-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb6da85d-f213-478e-b276-c0b46065cf6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="82129dcb-0937-4ded-8bd1-9d2154a495d7" testId="9568328b-2cfe-4270-7887-6945be150cfd" testName="LDStoreOverwriteTest" computerName="TOTORO" duration="00:00:00.0002860" startTime="2012-05-07T08:37:41.0519906-05:00" endTime="2012-05-07T08:37:41.0569909-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82129dcb-0937-4ded-8bd1-9d2154a495d7">
+    </UnitTestResult>
+    <UnitTestResult executionId="d1590117-1701-4fa7-a278-a05f4789989c" testId="a2571d66-825b-577c-328f-a9d27c85a47e" testName="OpenHTStoreAndLookupTest" computerName="TOTORO" duration="00:00:00.0006359" startTime="2012-05-07T08:37:41.0609912-05:00" endTime="2012-05-07T08:37:41.0649914-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1590117-1701-4fa7-a278-a05f4789989c">
+    </UnitTestResult>
+    <UnitTestResult executionId="8271c28c-c50b-4b9d-afc7-e66db9d4befe" testId="aca1b77d-c79d-e9db-ee09-039d293fc907" testName="RunSumTest" computerName="TOTORO" duration="00:00:00.0013631" startTime="2012-05-07T08:37:41.0669915-05:00" endTime="2012-05-07T08:37:41.0709917-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8271c28c-c50b-4b9d-afc7-e66db9d4befe">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.OperatorExpressionTest.RunSumTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.OperatorExpression.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 279
+   at DictionaryTests.OperatorExpressionTest.RunSumTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\OperatorExpressionTest.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb9694c0-ad31-480a-adc5-4e9f2075a62b" testId="b7f32841-9164-ff19-cb23-03474a5b68f2" testName="ChainedHashtableConstructorTest" computerName="TOTORO" duration="00:00:00.0040751" startTime="2012-05-07T08:37:41.0729918-05:00" endTime="2012-05-07T08:37:41.0809923-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb9694c0-ad31-480a-adc5-4e9f2075a62b">
+    </UnitTestResult>
+    <UnitTestResult executionId="f575ea20-4383-4385-b012-cf2fd598ba7d" testId="bad66bbd-4821-5dda-2a04-94a374d654d8" testName="MemberAssignTest" computerName="TOTORO" duration="00:00:00.0025207" startTime="2012-05-07T08:37:41.0839925-05:00" endTime="2012-05-07T08:37:41.0899928-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f575ea20-4383-4385-b012-cf2fd598ba7d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberAssignTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.MemberAssignment.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 206
+   at DictionaryTests.MemberAssignmentTest.MemberAssignTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\MemberAssignmentTest.cs:line 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e96f2de-68a9-44c4-942e-faa6993b0a4d" testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" testName="ChainedHTCountTest" computerName="TOTORO" duration="00:00:00.0004492" startTime="2012-05-07T08:37:41.1009934-05:00" endTime="2012-05-07T08:37:41.1059937-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e96f2de-68a9-44c4-942e-faa6993b0a4d">
+    </UnitTestResult>
+    <UnitTestResult executionId="aacb603c-bb01-467f-9496-cd3eca3ad5ff" testId="c0df9bb7-afa1-94fd-32c4-7ccca67ca1d6" testName="VariableAssignTest" computerName="TOTORO" duration="00:00:00.0014112" startTime="2012-05-07T08:37:41.1079938-05:00" endTime="2012-05-07T08:37:41.1119941-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aacb603c-bb01-467f-9496-cd3eca3ad5ff">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableAssignmentTest.VariableAssignTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.VariableAssignment.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 134
+   at DictionaryTests.VariableAssignmentTest.VariableAssignTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\VariableAssignmentTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f519489-8ef2-4dca-b0a5-75a555151d01" testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" testName="OpenHTStoreOverwriteTest" computerName="TOTORO" duration="00:00:00.0003075" startTime="2012-05-07T08:37:41.1189945-05:00" endTime="2012-05-07T08:37:41.1229947-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f519489-8ef2-4dca-b0a5-75a555151d01">
+    </UnitTestResult>
+    <UnitTestResult executionId="83d3ac70-da40-4523-8757-23ebb202a896" testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" testName="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="TOTORO" duration="00:00:00.0004800" startTime="2012-05-07T08:37:41.1259949-05:00" endTime="2012-05-07T08:37:41.1299951-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83d3ac70-da40-4523-8757-23ebb202a896">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b0b4f2b-171b-4f6c-a1cb-b525482867ab" testId="d354d05d-5a14-6853-83aa-d07785f73845" testName="ListDictionaryConstructorTest" computerName="TOTORO" duration="00:00:00.0001466" startTime="2012-05-07T08:37:41.1329953-05:00" endTime="2012-05-07T08:37:41.1359954-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b0b4f2b-171b-4f6c-a1cb-b525482867ab">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e7e746e-ce22-42e9-91bd-1408b445d109" testId="e1e81ca3-826b-3286-bf15-706298b51fdd" testName="OpenHTCountTest" computerName="TOTORO" duration="00:00:00.0004119" startTime="2012-05-07T08:37:41.1399957-05:00" endTime="2012-05-07T08:37:41.1439959-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e7e746e-ce22-42e9-91bd-1408b445d109">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e03ea76-dfde-462a-955f-8e893d7355ae" testId="e33f2b20-ccc1-059e-ec52-d50703948c5f" testName="MemberMethodTest2Args" computerName="TOTORO" duration="00:00:00.0013600" startTime="2012-05-07T08:37:41.1469961-05:00" endTime="2012-05-07T08:37:41.1559966-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e03ea76-dfde-462a-955f-8e893d7355ae">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberMethodTest2Args threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.MethodCall.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 252
+   at DictionaryTests.MemberAssignmentTest.MemberMethodTest2Args() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\MemberAssignmentTest.cs:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73c9cbf5-3f61-451a-a5d8-2a16f1e85a46" testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" testName="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="TOTORO" duration="00:00:00.0004207" startTime="2012-05-07T08:37:41.1579967-05:00" endTime="2012-05-07T08:37:41.1689973-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73c9cbf5-3f61-451a-a5d8-2a16f1e85a46">
+    </UnitTestResult>
+    <UnitTestResult executionId="46959e21-18f6-4c2a-907f-3fec1dc69b7f" testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" testName="LDStoreAndLookupTest" computerName="TOTORO" duration="00:00:00.0027520" startTime="2012-05-07T08:37:41.1709974-05:00" endTime="2012-05-07T08:37:41.1879984-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46959e21-18f6-4c2a-907f-3fec1dc69b7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="a41acb61-991d-4702-88ec-a3c874b2fa67" testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" testName="OpenAddressedHashtableConstructorTest" computerName="TOTORO" duration="00:00:00.0001624" startTime="2012-05-07T08:37:41.1909986-05:00" endTime="2012-05-07T08:37:41.1949988-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a41acb61-991d-4702-88ec-a3c874b2fa67">
+    </UnitTestResult>
+    <UnitTestResult executionId="9fc16310-e4aa-4ee1-85fc-87a3adefb911" testId="f5a341c8-0f31-edff-6652-5dd107e4450c" testName="RunTest" computerName="TOTORO" duration="00:00:00.0018655" startTime="2012-05-07T08:37:41.1969989-05:00" endTime="2012-05-07T08:37:41.2390013-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fc16310-e4aa-4ee1-85fc-87a3adefb911">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableReferenceTest.RunTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.VariableReference.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 98
+   at DictionaryTests.VariableReferenceTest.RunTest() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\VariableReferenceTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e626029e-e5e8-4afb-bdcb-843642c16966" testId="fa32822c-facb-58d9-bfec-5c55bf7afc36" testName="MemberMethodTest0Arg" computerName="TOTORO" duration="00:00:00.0014374" startTime="2012-05-07T08:37:41.2410014-05:00" endTime="2012-05-07T08:37:41.2530021-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e626029e-e5e8-4afb-bdcb-843642c16966">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberMethodTest0Arg threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.MethodCall.Run(Dictionary dict) in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\SyntaxTree.cs:line 252
+   at DictionaryTests.MemberAssignmentTest.MemberMethodTest0Arg() in C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\Tests\MemberAssignmentTest.cs:line 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

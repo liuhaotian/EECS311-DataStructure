@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b2a1ed7b-b86a-4984-9832-6b3905b63c32" name="ian@TOTORO 2011-04-24 18:29:46" runUser="Totoro\ian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4086bb99-4879-4a3b-8a59-bbea98ebebc6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ian_TOTORO 2011-04-24 18_29_46">
+      <DeploymentItem filename="C:\Users\ian\Desktop\EECS-311 Assignment 2\HappyFunBlob\bin\x86\Release\HappyFunBlob.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-24T18:29:46.0979424-05:00" queuing="2011-04-24T18:29:46.1329444-05:00" start="2011-04-24T18:29:46.1519455-05:00" finish="2011-04-24T18:29:46.7009769-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="20" executed="20" error="0" failed="20" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IndirectAssignmentTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="430e6d44-5c9c-f0f3-69bf-25fc12219deb">
+      <Execution id="637cc0e6-9d9a-422d-ac88-3ea5d00916f6" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndirectAssignmentTest" />
+    </UnitTest>
+    <UnitTest name="OverwriteUsingAddTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="2ac26f14-7b0e-8a7b-7d99-8a6bf6539468">
+      <Execution id="4b98b4c5-3264-4d52-bf8c-b5650060fe1f" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OverwriteUsingAddTest" />
+    </UnitTest>
+    <UnitTest name="MemberMethodTest1Arg" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="90c0feba-8300-4d5d-9569-c2383b974ca7">
+      <Execution id="255f2c15-8117-46ca-9e65-438a35d19191" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberMethodTest1Arg" />
+    </UnitTest>
+    <UnitTest name="VariableAssignTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="c0df9bb7-afa1-94fd-32c4-7ccca67ca1d6">
+      <Execution id="8ecb279e-3d49-4eb1-9c14-160762a50170" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VariableAssignTest" />
+    </UnitTest>
+    <UnitTest name="ListDictionaryConstructorTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="d354d05d-5a14-6853-83aa-d07785f73845">
+      <Execution id="9b2a3260-f956-4742-8128-4f9ad352b4c1" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListDictionaryConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RunTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="f5a341c8-0f31-edff-6652-5dd107e4450c">
+      <Execution id="f868bfc7-65ab-4434-81c8-e871ee6b6314" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableReferenceTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunTest" />
+    </UnitTest>
+    <UnitTest name="RunConstantIntegerTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="570d2617-c093-c0d9-5da1-5e705ca1262d">
+      <Execution id="bab6aeca-0cd6-4609-bc64-6de23b476764" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ConstantTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunConstantIntegerTest" />
+    </UnitTest>
+    <UnitTest name="LookupThrowsDictionaryNotFoundExceptionTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="a81209f6-a080-7e84-0f4c-eb7bec625a2d">
+      <Execution id="af353131-724c-4f05-962f-c7c52b206a4b" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="StoreAndLookupTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="6ca4448d-c8d8-cb48-08f9-2c044ff4ca63">
+      <Execution id="db0eb0ab-f0e4-4f9d-bef0-9820bdecfb26" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="RunSumTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="aca1b77d-c79d-e9db-ee09-039d293fc907">
+      <Execution id="40770e6b-abf0-4c55-97c7-44259c6954a2" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.OperatorExpressionTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunSumTest" />
+    </UnitTest>
+    <UnitTest name="MemberRefTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="628853e3-ab3b-3342-4af9-4dedc03eac6d">
+      <Execution id="30b61150-1c5d-42c0-9fef-99ddebb892e8" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberRefTest" />
+    </UnitTest>
+    <UnitTest name="RunConstantStringTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="4ea150a2-db47-7394-620b-5d13012b0327">
+      <Execution id="fe6a9689-d2e4-4565-ad86-cb53a4ddd7b1" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ConstantTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunConstantStringTest" />
+    </UnitTest>
+    <UnitTest name="CorrectTypeCheckingTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="7b110512-064c-cfeb-fd10-5cd4f065e161">
+      <Execution id="5a37358c-0099-4aa6-8466-1619f05a4f54" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CorrectTypeCheckingTest" />
+    </UnitTest>
+    <UnitTest name="MemberAssignTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="bad66bbd-4821-5dda-2a04-94a374d654d8">
+      <Execution id="2e7ab1cf-e87f-4ce1-a431-8ba3f926e4c2" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberAssignTest" />
+    </UnitTest>
+    <UnitTest name="StoreOverwriteTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="a59fed79-d632-1104-46ba-5dc36f6e6e78">
+      <Execution id="e9d12833-ec79-41e8-92e2-76f7ead91d8c" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="RunNegationTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="8b8aa821-1750-4662-4440-5fb9f59e3453">
+      <Execution id="2ab78709-6c5e-4a99-903c-9a335d4894d9" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.OperatorExpressionTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunNegationTest" />
+    </UnitTest>
+    <UnitTest name="VariableReassignmentTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="91144527-fab2-4f44-b4f9-5c8fb62a75cc">
+      <Execution id="10820e62-e97b-4fa7-a501-8b53f96dcb48" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.VariableAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VariableReassignmentTest" />
+    </UnitTest>
+    <UnitTest name="MemberMethodTest0Arg" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="fa32822c-facb-58d9-bfec-5c55bf7afc36">
+      <Execution id="8ceb250c-50c4-4019-a8ec-310823f53784" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberMethodTest0Arg" />
+    </UnitTest>
+    <UnitTest name="MemberMethodTest2Args" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="e33f2b20-ccc1-059e-ec52-d50703948c5f">
+      <Execution id="9e88cbc4-7df1-41ad-8f21-dd5c5b6406c2" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.MemberAssignmentTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MemberMethodTest2Args" />
+    </UnitTest>
+    <UnitTest name="RunProductTest" storage="c:\users\ian\desktop\eecs-311 assignment 2\tests\bin\release\tests.dll" id="1da900d2-8ad5-dec6-3f92-43659a67403f">
+      <Execution id="87cadc3a-ab3e-427a-83c2-a75fa1c59226" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/EECS-311 Assignment 2/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.OperatorExpressionTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunProductTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1da900d2-8ad5-dec6-3f92-43659a67403f" executionId="87cadc3a-ab3e-427a-83c2-a75fa1c59226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ac26f14-7b0e-8a7b-7d99-8a6bf6539468" executionId="4b98b4c5-3264-4d52-bf8c-b5650060fe1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="430e6d44-5c9c-f0f3-69bf-25fc12219deb" executionId="637cc0e6-9d9a-422d-ac88-3ea5d00916f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ea150a2-db47-7394-620b-5d13012b0327" executionId="fe6a9689-d2e4-4565-ad86-cb53a4ddd7b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="570d2617-c093-c0d9-5da1-5e705ca1262d" executionId="bab6aeca-0cd6-4609-bc64-6de23b476764" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="628853e3-ab3b-3342-4af9-4dedc03eac6d" executionId="30b61150-1c5d-42c0-9fef-99ddebb892e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ca4448d-c8d8-cb48-08f9-2c044ff4ca63" executionId="db0eb0ab-f0e4-4f9d-bef0-9820bdecfb26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b110512-064c-cfeb-fd10-5cd4f065e161" executionId="5a37358c-0099-4aa6-8466-1619f05a4f54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b8aa821-1750-4662-4440-5fb9f59e3453" executionId="2ab78709-6c5e-4a99-903c-9a335d4894d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c0feba-8300-4d5d-9569-c2383b974ca7" executionId="255f2c15-8117-46ca-9e65-438a35d19191" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91144527-fab2-4f44-b4f9-5c8fb62a75cc" executionId="10820e62-e97b-4fa7-a501-8b53f96dcb48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a59fed79-d632-1104-46ba-5dc36f6e6e78" executionId="e9d12833-ec79-41e8-92e2-76f7ead91d8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a81209f6-a080-7e84-0f4c-eb7bec625a2d" executionId="af353131-724c-4f05-962f-c7c52b206a4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aca1b77d-c79d-e9db-ee09-039d293fc907" executionId="40770e6b-abf0-4c55-97c7-44259c6954a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bad66bbd-4821-5dda-2a04-94a374d654d8" executionId="2e7ab1cf-e87f-4ce1-a431-8ba3f926e4c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0df9bb7-afa1-94fd-32c4-7ccca67ca1d6" executionId="8ecb279e-3d49-4eb1-9c14-160762a50170" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d354d05d-5a14-6853-83aa-d07785f73845" executionId="9b2a3260-f956-4742-8128-4f9ad352b4c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e33f2b20-ccc1-059e-ec52-d50703948c5f" executionId="9e88cbc4-7df1-41ad-8f21-dd5c5b6406c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5a341c8-0f31-edff-6652-5dd107e4450c" executionId="f868bfc7-65ab-4434-81c8-e871ee6b6314" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa32822c-facb-58d9-bfec-5c55bf7afc36" executionId="8ceb250c-50c4-4019-a8ec-310823f53784" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="87cadc3a-ab3e-427a-83c2-a75fa1c59226" testId="1da900d2-8ad5-dec6-3f92-43659a67403f" testName="RunProductTest" computerName="TOTORO" duration="00:00:00.0296816" startTime="2011-04-24T18:29:46.1619461-05:00" endTime="2011-04-24T18:29:46.4019598-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87cadc3a-ab3e-427a-83c2-a75fa1c59226">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.OperatorExpressionTest.RunProductTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.OperatorExpressionTest.RunProductTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\OperatorExpressionTest.cs:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b98b4c5-3264-4d52-bf8c-b5650060fe1f" testId="2ac26f14-7b0e-8a7b-7d99-8a6bf6539468" testName="OverwriteUsingAddTest" computerName="TOTORO" duration="00:00:00.0021614" startTime="2011-04-24T18:29:46.4159606-05:00" endTime="2011-04-24T18:29:46.4269612-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b98b4c5-3264-4d52-bf8c-b5650060fe1f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ListDictionaryTest.OverwriteUsingAddTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ListDictionaryTest.OverwriteUsingAddTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ListDictionaryTest.cs:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="637cc0e6-9d9a-422d-ac88-3ea5d00916f6" testId="430e6d44-5c9c-f0f3-69bf-25fc12219deb" testName="IndirectAssignmentTest" computerName="TOTORO" duration="00:00:00.0022942" startTime="2011-04-24T18:29:46.4419621-05:00" endTime="2011-04-24T18:29:46.4599631-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="637cc0e6-9d9a-422d-ac88-3ea5d00916f6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableAssignmentTest.IndirectAssignmentTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.VariableAssignmentTest.IndirectAssignmentTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\VariableAssignmentTest.cs:line 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe6a9689-d2e4-4565-ad86-cb53a4ddd7b1" testId="4ea150a2-db47-7394-620b-5d13012b0327" testName="RunConstantStringTest" computerName="TOTORO" duration="00:00:00.0014404" startTime="2011-04-24T18:29:46.4729638-05:00" endTime="2011-04-24T18:29:46.4789642-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe6a9689-d2e4-4565-ad86-cb53a4ddd7b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ConstantTest.RunConstantStringTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ConstantTest.RunConstantStringTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ConstantTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bab6aeca-0cd6-4609-bc64-6de23b476764" testId="570d2617-c093-c0d9-5da1-5e705ca1262d" testName="RunConstantIntegerTest" computerName="TOTORO" duration="00:00:00.0013881" startTime="2011-04-24T18:29:46.4849645-05:00" endTime="2011-04-24T18:29:46.4919649-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bab6aeca-0cd6-4609-bc64-6de23b476764">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ConstantTest.RunConstantIntegerTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ConstantTest.RunConstantIntegerTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ConstantTest.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="30b61150-1c5d-42c0-9fef-99ddebb892e8" testId="628853e3-ab3b-3342-4af9-4dedc03eac6d" testName="MemberRefTest" computerName="TOTORO" duration="00:00:00.0014574" startTime="2011-04-24T18:29:46.4949651-05:00" endTime="2011-04-24T18:29:46.5029656-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30b61150-1c5d-42c0-9fef-99ddebb892e8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberRefTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.MemberAssignmentTest.MemberRefTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\MemberAssignmentTest.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="db0eb0ab-f0e4-4f9d-bef0-9820bdecfb26" testId="6ca4448d-c8d8-cb48-08f9-2c044ff4ca63" testName="StoreAndLookupTest" computerName="TOTORO" duration="00:00:00.0014893" startTime="2011-04-24T18:29:46.5089659-05:00" endTime="2011-04-24T18:29:46.5149663-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db0eb0ab-f0e4-4f9d-bef0-9820bdecfb26">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ListDictionaryTest.StoreAndLookupTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ListDictionaryTest.StoreAndLookupTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ListDictionaryTest.cs:line 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a37358c-0099-4aa6-8466-1619f05a4f54" testId="7b110512-064c-cfeb-fd10-5cd4f065e161" testName="CorrectTypeCheckingTest" computerName="TOTORO" duration="00:00:00.0013238" startTime="2011-04-24T18:29:46.5169664-05:00" endTime="2011-04-24T18:29:46.5279670-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a37358c-0099-4aa6-8466-1619f05a4f54">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ListDictionaryTest.CorrectTypeCheckingTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ListDictionaryTest.CorrectTypeCheckingTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ListDictionaryTest.cs:line 139
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ab78709-6c5e-4a99-903c-9a335d4894d9" testId="8b8aa821-1750-4662-4440-5fb9f59e3453" testName="RunNegationTest" computerName="TOTORO" duration="00:00:00.0013357" startTime="2011-04-24T18:29:46.5299671-05:00" endTime="2011-04-24T18:29:46.5409677-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab78709-6c5e-4a99-903c-9a335d4894d9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.OperatorExpressionTest.RunNegationTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.OperatorExpressionTest.RunNegationTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\OperatorExpressionTest.cs:line 95
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="255f2c15-8117-46ca-9e65-438a35d19191" testId="90c0feba-8300-4d5d-9569-c2383b974ca7" testName="MemberMethodTest1Arg" computerName="TOTORO" duration="00:00:00.0013038" startTime="2011-04-24T18:29:46.5419678-05:00" endTime="2011-04-24T18:29:46.5529684-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="255f2c15-8117-46ca-9e65-438a35d19191">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberMethodTest1Arg threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.MemberAssignmentTest.MemberMethodTest1Arg() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\MemberAssignmentTest.cs:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10820e62-e97b-4fa7-a501-8b53f96dcb48" testId="91144527-fab2-4f44-b4f9-5c8fb62a75cc" testName="VariableReassignmentTest" computerName="TOTORO" duration="00:00:00.0013373" startTime="2011-04-24T18:29:46.5539685-05:00" endTime="2011-04-24T18:29:46.5649691-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10820e62-e97b-4fa7-a501-8b53f96dcb48">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableAssignmentTest.VariableReassignmentTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.VariableAssignmentTest.VariableReassignmentTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\VariableAssignmentTest.cs:line 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9d12833-ec79-41e8-92e2-76f7ead91d8c" testId="a59fed79-d632-1104-46ba-5dc36f6e6e78" testName="StoreOverwriteTest" computerName="TOTORO" duration="00:00:00.0013577" startTime="2011-04-24T18:29:46.5669692-05:00" endTime="2011-04-24T18:29:46.5779699-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9d12833-ec79-41e8-92e2-76f7ead91d8c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ListDictionaryTest.StoreOverwriteTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ListDictionaryTest.StoreOverwriteTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ListDictionaryTest.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af353131-724c-4f05-962f-c7c52b206a4b" testId="a81209f6-a080-7e84-0f4c-eb7bec625a2d" testName="LookupThrowsDictionaryNotFoundExceptionTest" computerName="TOTORO" duration="00:00:00.0021622" startTime="2011-04-24T18:29:46.5789699-05:00" endTime="2011-04-24T18:29:46.5899705-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af353131-724c-4f05-962f-c7c52b206a4b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ListDictionaryTest.LookupThrowsDictionaryNotFoundExceptionTest threw exception System.NotImplementedException, but exception HappyFunBlob.DictionaryKeyNotFoundException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ListDictionaryTest.LookupThrowsDictionaryNotFoundExceptionTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ListDictionaryTest.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="40770e6b-abf0-4c55-97c7-44259c6954a2" testId="aca1b77d-c79d-e9db-ee09-039d293fc907" testName="RunSumTest" computerName="TOTORO" duration="00:00:00.0021260" startTime="2011-04-24T18:29:46.5919707-05:00" endTime="2011-04-24T18:29:46.6059715-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40770e6b-abf0-4c55-97c7-44259c6954a2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.OperatorExpressionTest.RunSumTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.OperatorExpressionTest.RunSumTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\OperatorExpressionTest.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e7ab1cf-e87f-4ce1-a431-8ba3f926e4c2" testId="bad66bbd-4821-5dda-2a04-94a374d654d8" testName="MemberAssignTest" computerName="TOTORO" duration="00:00:00.0014870" startTime="2011-04-24T18:29:46.6119718-05:00" endTime="2011-04-24T18:29:46.6229724-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e7ab1cf-e87f-4ce1-a431-8ba3f926e4c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberAssignTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.MemberAssignmentTest.MemberAssignTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\MemberAssignmentTest.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ecb279e-3d49-4eb1-9c14-160762a50170" testId="c0df9bb7-afa1-94fd-32c4-7ccca67ca1d6" testName="VariableAssignTest" computerName="TOTORO" duration="00:00:00.0013149" startTime="2011-04-24T18:29:46.6239725-05:00" endTime="2011-04-24T18:29:46.6339731-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ecb279e-3d49-4eb1-9c14-160762a50170">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableAssignmentTest.VariableAssignTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.VariableAssignmentTest.VariableAssignTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\VariableAssignmentTest.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b2a3260-f956-4742-8128-4f9ad352b4c1" testId="d354d05d-5a14-6853-83aa-d07785f73845" testName="ListDictionaryConstructorTest" computerName="TOTORO" duration="00:00:00.0013392" startTime="2011-04-24T18:29:46.6369732-05:00" endTime="2011-04-24T18:29:46.6479739-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b2a3260-f956-4742-8128-4f9ad352b4c1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.ListDictionaryTest.ListDictionaryConstructorTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.ListDictionaryTest.ListDictionaryConstructorTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\ListDictionaryTest.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e88cbc4-7df1-41ad-8f21-dd5c5b6406c2" testId="e33f2b20-ccc1-059e-ec52-d50703948c5f" testName="MemberMethodTest2Args" computerName="TOTORO" duration="00:00:00.0013172" startTime="2011-04-24T18:29:46.6499740-05:00" endTime="2011-04-24T18:29:46.6609746-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e88cbc4-7df1-41ad-8f21-dd5c5b6406c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberMethodTest2Args threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.MemberAssignmentTest.MemberMethodTest2Args() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\MemberAssignmentTest.cs:line 131
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f868bfc7-65ab-4434-81c8-e871ee6b6314" testId="f5a341c8-0f31-edff-6652-5dd107e4450c" testName="RunTest" computerName="TOTORO" duration="00:00:00.0015752" startTime="2011-04-24T18:29:46.6619747-05:00" endTime="2011-04-24T18:29:46.6729753-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f868bfc7-65ab-4434-81c8-e871ee6b6314">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.VariableReferenceTest.RunTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.VariableReferenceTest.RunTest() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\VariableReferenceTest.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ceb250c-50c4-4019-a8ec-310823f53784" testId="fa32822c-facb-58d9-bfec-5c55bf7afc36" testName="MemberMethodTest0Arg" computerName="TOTORO" duration="00:00:00.0013215" startTime="2011-04-24T18:29:46.6739753-05:00" endTime="2011-04-24T18:29:46.6839759-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ceb250c-50c4-4019-a8ec-310823f53784">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.MemberAssignmentTest.MemberMethodTest0Arg threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DictionaryTests.MemberAssignmentTest.MemberMethodTest0Arg() in C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\MemberAssignmentTest.cs:line 118
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

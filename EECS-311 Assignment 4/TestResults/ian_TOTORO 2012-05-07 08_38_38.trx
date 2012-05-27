@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9180e425-945b-4c65-9cb4-a202f3ad36df" name="ian@TOTORO 2012-05-07 08:38:38" runUser="Totoro\ian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4086bb99-4879-4a3b-8a59-bbea98ebebc6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ian_TOTORO 2012-05-07 08_38_38">
+      <DeploymentItem filename="C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 4 solution\HappyFunBlob\bin\x86\Debug\HappyFunBlob.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-07T08:38:38.0432503-05:00" queuing="2012-05-07T08:38:38.0882529-05:00" start="2012-05-07T08:38:38.1072540-05:00" finish="2012-05-07T08:38:38.7342899-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="18" passed="18" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OpenHTCountTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="e1e81ca3-826b-3286-bf15-706298b51fdd">
+      <Execution id="607b315e-b3de-4658-999c-9bd6fb639cb6" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreOverwriteTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="c7ba8f42-0ec1-9118-d9bb-e81b4295e097">
+      <Execution id="64058578-4b96-4210-8693-a39843ad3b05" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableConstructorTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="b7f32841-9164-ff19-cb23-03474a5b68f2">
+      <Execution id="7dd896bf-5b09-4bee-859b-9f0707f0bed6" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableParentTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="77f92430-e15d-1805-2a5f-3bac8352d656">
+      <Execution id="d1b0261c-9a22-48b9-abd0-27e3a01dc021" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="d1ac431c-9b5d-62c2-4a87-7869fa50817e">
+      <Execution id="f4beec9e-cbb9-49a9-923c-d97e2c7aa7f2" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="LDCountTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="3173ec7c-8657-cbfa-7b23-73980f4cefc5">
+      <Execution id="f3677483-63a9-4fa7-8fff-575ce2eabcee" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableParentTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="396f85f9-d3a1-d602-2d10-d3e11e085d0a">
+      <Execution id="0dad84be-9e29-44eb-ba8d-892a23b3f1b4" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="ListDictionaryConstructorTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="d354d05d-5a14-6853-83aa-d07785f73845">
+      <Execution id="e46c4d26-c676-4b59-b790-4eb6c20b42b3" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListDictionaryConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="e574ba46-8e58-1576-7c9a-4a505f9c4e46">
+      <Execution id="8c4cddf2-dedc-4167-a54e-a4ef60e6fad0" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="LDStoreAndLookupTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="edc32e9c-1d9d-f859-e9bd-6fe889c0416d">
+      <Execution id="cf5a837d-c9d0-428f-ad87-20d1ba3dd21c" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTOverflowThrowsHashtableFullExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="6acd591f-d4d7-26f6-6464-9cb81148900b">
+      <Execution id="e06224aa-7a76-40d9-91b8-b7c2d182ebed" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTOverflowThrowsHashtableFullExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreOverwriteTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="9249a21f-90aa-8e95-edbf-7a2477a28138">
+      <Execution id="bdae91ee-d2ed-4433-9030-79579e5fdc9d" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTCountTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e">
+      <Execution id="b87bc5ac-0564-476b-bc41-a9bb792b2e7b" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableConstructorTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="f58fbbb2-c088-fc25-febb-1f85ba59f24c">
+      <Execution id="267d08b6-6a47-4746-9535-748ed72429de" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LDStoreOverwriteTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="9568328b-2cfe-4270-7887-6945be150cfd">
+      <Execution id="ce532081-88b0-4683-a0d7-1a3c53cff972" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="LDLookupThrowsDictionaryNotFoundExceptionTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="372d763a-4db8-c506-ed45-3a0f1efa9472">
+      <Execution id="584763c1-d5c0-414d-8c63-06fb00fa15fa" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreAndLookupTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="92a56d21-7b45-c992-2814-b0dff9b5ca00">
+      <Execution id="fa30f7fe-cdca-4c56-8962-2ef8491e6bb7" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreAndLookupTest" storage="c:\users\ian\desktop\classes\311\eecs-311 assignment 4 solution\tests\bin\debug\tests.dll" id="a2571d66-825b-577c-328f-a9d27c85a47e">
+      <Execution id="27efe02c-057c-4a2e-aa11-ac4f6d444d1c" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/EECS-311 Assignment 4 solution/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreAndLookupTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" executionId="f3677483-63a9-4fa7-8fff-575ce2eabcee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="372d763a-4db8-c506-ed45-3a0f1efa9472" executionId="584763c1-d5c0-414d-8c63-06fb00fa15fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" executionId="0dad84be-9e29-44eb-ba8d-892a23b3f1b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6acd591f-d4d7-26f6-6464-9cb81148900b" executionId="e06224aa-7a76-40d9-91b8-b7c2d182ebed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f92430-e15d-1805-2a5f-3bac8352d656" executionId="d1b0261c-9a22-48b9-abd0-27e3a01dc021" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9249a21f-90aa-8e95-edbf-7a2477a28138" executionId="bdae91ee-d2ed-4433-9030-79579e5fdc9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" executionId="fa30f7fe-cdca-4c56-8962-2ef8491e6bb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9568328b-2cfe-4270-7887-6945be150cfd" executionId="ce532081-88b0-4683-a0d7-1a3c53cff972" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2571d66-825b-577c-328f-a9d27c85a47e" executionId="27efe02c-057c-4a2e-aa11-ac4f6d444d1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7f32841-9164-ff19-cb23-03474a5b68f2" executionId="7dd896bf-5b09-4bee-859b-9f0707f0bed6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" executionId="b87bc5ac-0564-476b-bc41-a9bb792b2e7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" executionId="64058578-4b96-4210-8693-a39843ad3b05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" executionId="f4beec9e-cbb9-49a9-923c-d97e2c7aa7f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d354d05d-5a14-6853-83aa-d07785f73845" executionId="e46c4d26-c676-4b59-b790-4eb6c20b42b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1e81ca3-826b-3286-bf15-706298b51fdd" executionId="607b315e-b3de-4658-999c-9bd6fb639cb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" executionId="8c4cddf2-dedc-4167-a54e-a4ef60e6fad0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" executionId="cf5a837d-c9d0-428f-ad87-20d1ba3dd21c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" executionId="267d08b6-6a47-4746-9535-748ed72429de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f3677483-63a9-4fa7-8fff-575ce2eabcee" testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" testName="LDCountTest" computerName="TOTORO" duration="00:00:00.0156920" startTime="2012-05-07T08:38:38.1202548-05:00" endTime="2012-05-07T08:38:38.3912703-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3677483-63a9-4fa7-8fff-575ce2eabcee">
+    </UnitTestResult>
+    <UnitTestResult executionId="584763c1-d5c0-414d-8c63-06fb00fa15fa" testId="372d763a-4db8-c506-ed45-3a0f1efa9472" testName="LDLookupThrowsDictionaryNotFoundExceptionTest" computerName="TOTORO" duration="00:00:00.0074778" startTime="2012-05-07T08:38:38.3962705-05:00" endTime="2012-05-07T08:38:38.4072712-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="584763c1-d5c0-414d-8c63-06fb00fa15fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="0dad84be-9e29-44eb-ba8d-892a23b3f1b4" testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" testName="OpenAddressedHashtableParentTest" computerName="TOTORO" duration="00:00:00.0031489" startTime="2012-05-07T08:38:38.4242721-05:00" endTime="2012-05-07T08:38:38.4422732-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dad84be-9e29-44eb-ba8d-892a23b3f1b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="e06224aa-7a76-40d9-91b8-b7c2d182ebed" testId="6acd591f-d4d7-26f6-6464-9cb81148900b" testName="OpenHTOverflowThrowsHashtableFullExceptionTest" computerName="TOTORO" duration="00:00:00.0014528" startTime="2012-05-07T08:38:38.4562740-05:00" endTime="2012-05-07T08:38:38.4612743-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e06224aa-7a76-40d9-91b8-b7c2d182ebed">
+    </UnitTestResult>
+    <UnitTestResult executionId="d1b0261c-9a22-48b9-abd0-27e3a01dc021" testId="77f92430-e15d-1805-2a5f-3bac8352d656" testName="ChainedHashtableParentTest" computerName="TOTORO" duration="00:00:00.0047430" startTime="2012-05-07T08:38:38.4762751-05:00" endTime="2012-05-07T08:38:38.4952762-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1b0261c-9a22-48b9-abd0-27e3a01dc021">
+    </UnitTestResult>
+    <UnitTestResult executionId="bdae91ee-d2ed-4433-9030-79579e5fdc9d" testId="9249a21f-90aa-8e95-edbf-7a2477a28138" testName="ChainedHTStoreOverwriteTest" computerName="TOTORO" duration="00:00:00.0027366" startTime="2012-05-07T08:38:38.5082769-05:00" endTime="2012-05-07T08:38:38.5142773-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdae91ee-d2ed-4433-9030-79579e5fdc9d">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa30f7fe-cdca-4c56-8962-2ef8491e6bb7" testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" testName="ChainedHTStoreAndLookupTest" computerName="TOTORO" duration="00:00:00.0056762" startTime="2012-05-07T08:38:38.5292781-05:00" endTime="2012-05-07T08:38:38.5612800-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa30f7fe-cdca-4c56-8962-2ef8491e6bb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce532081-88b0-4683-a0d7-1a3c53cff972" testId="9568328b-2cfe-4270-7887-6945be150cfd" testName="LDStoreOverwriteTest" computerName="TOTORO" duration="00:00:00.0003587" startTime="2012-05-07T08:38:38.5652802-05:00" endTime="2012-05-07T08:38:38.5702805-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce532081-88b0-4683-a0d7-1a3c53cff972">
+    </UnitTestResult>
+    <UnitTestResult executionId="27efe02c-057c-4a2e-aa11-ac4f6d444d1c" testId="a2571d66-825b-577c-328f-a9d27c85a47e" testName="OpenHTStoreAndLookupTest" computerName="TOTORO" duration="00:00:00.0048331" startTime="2012-05-07T08:38:38.5832812-05:00" endTime="2012-05-07T08:38:38.6052825-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27efe02c-057c-4a2e-aa11-ac4f6d444d1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7dd896bf-5b09-4bee-859b-9f0707f0bed6" testId="b7f32841-9164-ff19-cb23-03474a5b68f2" testName="ChainedHashtableConstructorTest" computerName="TOTORO" duration="00:00:00.0001809" startTime="2012-05-07T08:38:38.6092827-05:00" endTime="2012-05-07T08:38:38.6152831-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dd896bf-5b09-4bee-859b-9f0707f0bed6">
+    </UnitTestResult>
+    <UnitTestResult executionId="b87bc5ac-0564-476b-bc41-a9bb792b2e7b" testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" testName="ChainedHTCountTest" computerName="TOTORO" duration="00:00:00.0013211" startTime="2012-05-07T08:38:38.6202834-05:00" endTime="2012-05-07T08:38:38.6372843-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b87bc5ac-0564-476b-bc41-a9bb792b2e7b">
+    </UnitTestResult>
+    <UnitTestResult executionId="64058578-4b96-4210-8693-a39843ad3b05" testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" testName="OpenHTStoreOverwriteTest" computerName="TOTORO" duration="00:00:00.0003164" startTime="2012-05-07T08:38:38.6402845-05:00" endTime="2012-05-07T08:38:38.6442847-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64058578-4b96-4210-8693-a39843ad3b05">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4beec9e-cbb9-49a9-923c-d97e2c7aa7f2" testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" testName="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="TOTORO" duration="00:00:00.0004619" startTime="2012-05-07T08:38:38.6472849-05:00" endTime="2012-05-07T08:38:38.6502851-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4beec9e-cbb9-49a9-923c-d97e2c7aa7f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="e46c4d26-c676-4b59-b790-4eb6c20b42b3" testId="d354d05d-5a14-6853-83aa-d07785f73845" testName="ListDictionaryConstructorTest" computerName="TOTORO" duration="00:00:00.0042491" startTime="2012-05-07T08:38:38.6532852-05:00" endTime="2012-05-07T08:38:38.6702862-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e46c4d26-c676-4b59-b790-4eb6c20b42b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="607b315e-b3de-4658-999c-9bd6fb639cb6" testId="e1e81ca3-826b-3286-bf15-706298b51fdd" testName="OpenHTCountTest" computerName="TOTORO" duration="00:00:00.0004881" startTime="2012-05-07T08:38:38.6732864-05:00" endTime="2012-05-07T08:38:38.6772866-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="607b315e-b3de-4658-999c-9bd6fb639cb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c4cddf2-dedc-4167-a54e-a4ef60e6fad0" testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" testName="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="TOTORO" duration="00:00:00.0004592" startTime="2012-05-07T08:38:38.6802868-05:00" endTime="2012-05-07T08:38:38.6842870-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c4cddf2-dedc-4167-a54e-a4ef60e6fad0">
+    </UnitTestResult>
+    <UnitTestResult executionId="cf5a837d-c9d0-428f-ad87-20d1ba3dd21c" testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" testName="LDStoreAndLookupTest" computerName="TOTORO" duration="00:00:00.0006186" startTime="2012-05-07T08:38:38.6862871-05:00" endTime="2012-05-07T08:38:38.6922875-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf5a837d-c9d0-428f-ad87-20d1ba3dd21c">
+    </UnitTestResult>
+    <UnitTestResult executionId="267d08b6-6a47-4746-9535-748ed72429de" testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" testName="OpenAddressedHashtableConstructorTest" computerName="TOTORO" duration="00:00:00.0035912" startTime="2012-05-07T08:38:38.7062883-05:00" endTime="2012-05-07T08:38:38.7132887-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="267d08b6-6a47-4746-9535-748ed72429de">
+    </UnitTestResult>
+  </Results>
+</TestRun>

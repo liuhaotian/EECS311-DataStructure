@@ -1,0 +1,6 @@
+#Name	Type	Reference	X	Y	Z	Name	Value	Name	Value	Name	Value
+	Amoeba		50	70	50						
+Start	Orb		50	40	50	Touched	"game.Display(100,100,0,""Touched Orb 1"")"	Untouched	"game.Display(100,100,0,""Untouched Orb 1"")"		
+	Orb		30	50	20	Touched	"game.Display(100,100,0,""Touched Orb 2"")"	Untouched	"game.Display(100,100,0,""Untouched Orb 2"")"		
+	Orb		0	80	0	spinrate	0.03	Touched	"game.Display(100,100,0,""Touched Orb 3"")"	Untouched	"game.Display(100,100,0,""Untouched Orb 3"")"
+End	Orb		30	110	0	radius	10	color	(0.9 0 0)	Mounted	End.color = color.Green.ToVector3()
