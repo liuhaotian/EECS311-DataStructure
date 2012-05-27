@@ -1,0 +1,8 @@
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\bin\Debug\Tests.dll
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\bin\Debug\Tests.pdb
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\bin\Debug\PathPlanner.exe
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\bin\Debug\PathPlanner.pdb
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\bin\Debug\PathPlanner.xml
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\obj\Debug\Tests.dll
+C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\obj\Debug\Tests.pdb

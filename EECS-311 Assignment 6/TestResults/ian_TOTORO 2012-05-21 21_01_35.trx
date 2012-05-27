@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3500cecc-d111-45b8-8113-2489319c7f2c" name="ian@TOTORO 2012-05-21 21:01:35" runUser="Totoro\ian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="11536784-1d12-4def-b3ac-03a9ba87e86a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ian_TOTORO 2012-05-21 21_01_35">
+      <DeploymentItem filename="C:\Users\ian\Desktop\Classes\311\PathPlanner\PathPlanner\bin\Debug\PathPlanner.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-21T21:01:35.5864404-05:00" queuing="2012-05-21T21:01:37.9108445-05:00" start="2012-05-21T21:01:38.0356447-05:00" finish="2012-05-21T21:01:39.0350465-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="2" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CountTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="d5c434d6-1448-5201-3bdb-4e299f8d2027">
+      <Execution id="fef2d2fb-cdd1-46e4-8d88-78005732b0be" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+    <UnitTest name="AddTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="b78943db-1c83-c494-f291-366f6978fbf7">
+      <Execution id="f09193f7-083e-45fe-bd62-b9892bbcf360" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTest" />
+    </UnitTest>
+    <UnitTest name="DecreasePriorityTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="be47755d-341b-cb4e-d640-71e0d3a7e074">
+      <Execution id="25dbdb8d-dfd8-49da-ad8f-750e9b4e8c82" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DecreasePriorityTest" />
+    </UnitTest>
+    <UnitTest name="ExtractMinTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="4c224aa9-c68c-4bc0-c94b-2523c2251989">
+      <Execution id="75c8fd60-40d8-44c3-aefd-8bcb0e2e7da4" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractMinTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4c224aa9-c68c-4bc0-c94b-2523c2251989" executionId="75c8fd60-40d8-44c3-aefd-8bcb0e2e7da4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b78943db-1c83-c494-f291-366f6978fbf7" executionId="f09193f7-083e-45fe-bd62-b9892bbcf360" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be47755d-341b-cb4e-d640-71e0d3a7e074" executionId="25dbdb8d-dfd8-49da-ad8f-750e9b4e8c82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5c434d6-1448-5201-3bdb-4e299f8d2027" executionId="fef2d2fb-cdd1-46e4-8d88-78005732b0be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="75c8fd60-40d8-44c3-aefd-8bcb0e2e7da4" testId="4c224aa9-c68c-4bc0-c94b-2523c2251989" testName="ExtractMinTest" computerName="TOTORO" duration="00:00:00.0182076" startTime="2012-05-21T21:01:38.1136449-05:00" endTime="2012-05-21T21:01:38.7230460-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75c8fd60-40d8-44c3-aefd-8bcb0e2e7da4">
+    </UnitTestResult>
+    <UnitTestResult executionId="f09193f7-083e-45fe-bd62-b9892bbcf360" testId="b78943db-1c83-c494-f291-366f6978fbf7" testName="AddTest" computerName="TOTORO" duration="00:00:00.1719797" startTime="2012-05-21T21:01:38.7230460-05:00" endTime="2012-05-21T21:01:38.8946463-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f09193f7-083e-45fe-bd62-b9892bbcf360">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. Count did not increase after adding to heap.</Message>
+          <StackTrace>   at Tests.BinaryHeapTest.AddTest() in C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\BinaryHeapTest.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25dbdb8d-dfd8-49da-ad8f-750e9b4e8c82" testId="be47755d-341b-cb4e-d640-71e0d3a7e074" testName="DecreasePriorityTest" computerName="TOTORO" duration="00:00:00.0230846" startTime="2012-05-21T21:01:38.9102463-05:00" endTime="2012-05-21T21:01:38.9414464-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25dbdb8d-dfd8-49da-ad8f-750e9b4e8c82">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.BinaryHeapTest.DecreasePriorityTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at PathPlanner.BinaryHeap.DecreasePriority(Node n, Double priority) in C:\Users\ian\Desktop\Classes\311\PathPlanner\PathPlanner\BinaryHeap.cs:line 65
+   at Tests.BinaryHeapTest.DecreasePriorityTest() in C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\BinaryHeapTest.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fef2d2fb-cdd1-46e4-8d88-78005732b0be" testId="d5c434d6-1448-5201-3bdb-4e299f8d2027" testName="CountTest" computerName="TOTORO" duration="00:00:00.0038572" startTime="2012-05-21T21:01:38.9414464-05:00" endTime="2012-05-21T21:01:38.9570464-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fef2d2fb-cdd1-46e4-8d88-78005732b0be">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at Tests.BinaryHeapTest.CountTest() in C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\BinaryHeapTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

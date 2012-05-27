@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="068ad02c-16b0-4a15-9235-f3e8fbc2ecc7" name="ian@TOTORO 2012-05-21 21:12:42" runUser="Totoro\ian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="11536784-1d12-4def-b3ac-03a9ba87e86a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ian_TOTORO 2012-05-21 21_12_42">
+      <DeploymentItem filename="C:\Users\ian\Desktop\Classes\311\PathPlanner\PathPlanner\bin\Debug\PathPlanner.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-21T21:12:42.7865995-05:00" queuing="2012-05-21T21:12:42.8676042-05:00" start="2012-05-21T21:12:42.8786048-05:00" finish="2012-05-21T21:12:43.2996116-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DecreasePriorityTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="be47755d-341b-cb4e-d640-71e0d3a7e074">
+      <Execution id="8e06f7ae-8e98-4252-98fd-19e158b091c6" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DecreasePriorityTest" />
+    </UnitTest>
+    <UnitTest name="ExtractLotsTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="273ddaab-e9ec-6cf0-2b61-e3d8171171c1">
+      <Execution id="ff366a1c-5394-4271-b930-8e94d79733ae" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractLotsTest" />
+    </UnitTest>
+    <UnitTest name="ExtractTest3" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="6b671fca-2203-054e-fe0c-756477f703d4">
+      <Execution id="83b23410-3af5-4a79-84a9-aca5cd6d0f20" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractTest3" />
+    </UnitTest>
+    <UnitTest name="ExtractTest2" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="8712a6e2-8700-2a83-91fd-7a607c8d8eda">
+      <Execution id="96929e3a-bc03-41af-9804-46c8df5b706e" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractTest2" />
+    </UnitTest>
+    <UnitTest name="ExtractTest1" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="02ed9249-87c5-b82d-d679-819c0b92b50e">
+      <Execution id="e216a2b3-8eec-4814-b7fa-12d3684bfb25" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractTest1" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="d5c434d6-1448-5201-3bdb-4e299f8d2027">
+      <Execution id="62037e04-355f-4fca-ab64-89ea9e4bd75c" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+    <UnitTest name="AddTest" storage="c:\users\ian\desktop\classes\311\pathplanner\tests\bin\debug\tests.dll" id="b78943db-1c83-c494-f291-366f6978fbf7">
+      <Execution id="80c893ef-f80a-4d1d-8cb5-d3a905f0b525" />
+      <TestMethod codeBase="C:/Users/ian/Desktop/Classes/311/PathPlanner/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.BinaryHeapTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02ed9249-87c5-b82d-d679-819c0b92b50e" executionId="e216a2b3-8eec-4814-b7fa-12d3684bfb25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="273ddaab-e9ec-6cf0-2b61-e3d8171171c1" executionId="ff366a1c-5394-4271-b930-8e94d79733ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b671fca-2203-054e-fe0c-756477f703d4" executionId="83b23410-3af5-4a79-84a9-aca5cd6d0f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8712a6e2-8700-2a83-91fd-7a607c8d8eda" executionId="96929e3a-bc03-41af-9804-46c8df5b706e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b78943db-1c83-c494-f291-366f6978fbf7" executionId="80c893ef-f80a-4d1d-8cb5-d3a905f0b525" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be47755d-341b-cb4e-d640-71e0d3a7e074" executionId="8e06f7ae-8e98-4252-98fd-19e158b091c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5c434d6-1448-5201-3bdb-4e299f8d2027" executionId="62037e04-355f-4fca-ab64-89ea9e4bd75c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e216a2b3-8eec-4814-b7fa-12d3684bfb25" testId="02ed9249-87c5-b82d-d679-819c0b92b50e" testName="ExtractTest1" computerName="TOTORO" duration="00:00:00.0168745" startTime="2012-05-21T21:12:42.9156069-05:00" endTime="2012-05-21T21:12:43.1280113-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e216a2b3-8eec-4814-b7fa-12d3684bfb25">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff366a1c-5394-4271-b930-8e94d79733ae" testId="273ddaab-e9ec-6cf0-2b61-e3d8171171c1" testName="ExtractLotsTest" computerName="TOTORO" duration="00:00:00.0065146" startTime="2012-05-21T21:12:43.1436113-05:00" endTime="2012-05-21T21:12:43.1592113-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff366a1c-5394-4271-b930-8e94d79733ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="83b23410-3af5-4a79-84a9-aca5cd6d0f20" testId="6b671fca-2203-054e-fe0c-756477f703d4" testName="ExtractTest3" computerName="TOTORO" duration="00:00:00.0004134" startTime="2012-05-21T21:12:43.1592113-05:00" endTime="2012-05-21T21:12:43.1592113-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83b23410-3af5-4a79-84a9-aca5cd6d0f20">
+    </UnitTestResult>
+    <UnitTestResult executionId="96929e3a-bc03-41af-9804-46c8df5b706e" testId="8712a6e2-8700-2a83-91fd-7a607c8d8eda" testName="ExtractTest2" computerName="TOTORO" duration="00:00:00.0004253" startTime="2012-05-21T21:12:43.1592113-05:00" endTime="2012-05-21T21:12:43.1748114-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96929e3a-bc03-41af-9804-46c8df5b706e">
+    </UnitTestResult>
+    <UnitTestResult executionId="80c893ef-f80a-4d1d-8cb5-d3a905f0b525" testId="b78943db-1c83-c494-f291-366f6978fbf7" testName="AddTest" computerName="TOTORO" duration="00:00:00.0069438" startTime="2012-05-21T21:12:43.1748114-05:00" endTime="2012-05-21T21:12:43.1904114-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80c893ef-f80a-4d1d-8cb5-d3a905f0b525">
+    </UnitTestResult>
+    <UnitTestResult executionId="8e06f7ae-8e98-4252-98fd-19e158b091c6" testId="be47755d-341b-cb4e-d640-71e0d3a7e074" testName="DecreasePriorityTest" computerName="TOTORO" duration="00:00:00.0322408" startTime="2012-05-21T21:12:43.2060114-05:00" endTime="2012-05-21T21:12:43.2528115-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e06f7ae-8e98-4252-98fd-19e158b091c6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.BinaryHeapTest.DecreasePriorityTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at PathPlanner.BinaryHeap.DecreasePriority(Node n, Double priority) in C:\Users\ian\Desktop\Classes\311\PathPlanner\PathPlanner\BinaryHeap.cs:line 65
+   at Tests.BinaryHeapTest.DecreasePriorityTest() in C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\BinaryHeapTest.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62037e04-355f-4fca-ab64-89ea9e4bd75c" testId="d5c434d6-1448-5201-3bdb-4e299f8d2027" testName="CountTest" computerName="TOTORO" duration="00:00:00.0098980" startTime="2012-05-21T21:12:43.2528115-05:00" endTime="2012-05-21T21:12:43.2840116-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62037e04-355f-4fca-ab64-89ea9e4bd75c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at Tests.BinaryHeapTest.CountTest() in C:\Users\ian\Desktop\Classes\311\PathPlanner\Tests\BinaryHeapTest.cs:line 206
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
