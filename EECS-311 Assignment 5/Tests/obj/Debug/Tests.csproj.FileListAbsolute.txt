@@ -1,0 +1,26 @@
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Content\MainFont.xnb
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Content\bargraphbar.xnb
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Content\gaus2d.xnb
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Content\RawTexture.xnb
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Content\Level0.txt
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Content\Level1.txt
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Tests.dll
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\Tests.pdb
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\HappyFunBlob.exe
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\bin\Debug\HappyFunBlob.pdb
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\obj\Debug\Tests.dll
+C:\Users\ian\Desktop\New HappyFunBlob\Tests\obj\Debug\Tests.pdb
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Content\MainFont.xnb
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Content\bargraphbar.xnb
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Content\gaus2d.xnb
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Content\RawTexture.xnb
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Content\Level0.txt
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Content\Level1.txt
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Tests.dll
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\Tests.pdb
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\HappyFunBlob.exe
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\bin\Debug\HappyFunBlob.pdb
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\obj\Debug\Tests.dll
+C:\Users\ian\Desktop\EECS-311 Assignment 2\Tests\obj\Debug\Tests.pdb

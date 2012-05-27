@@ -1,0 +1,13 @@
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Content\MainFont.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Content\bargraphbar.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Content\gaus2d.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Content\RawTexture.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Content\Level0.txt
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Content\Level1.txt
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Tests.dll
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\Tests.pdb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\HappyFunBlob.exe
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\bin\Release\HappyFunBlob.pdb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\obj\Release\Tests.dll
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\Tests\obj\Release\Tests.pdb

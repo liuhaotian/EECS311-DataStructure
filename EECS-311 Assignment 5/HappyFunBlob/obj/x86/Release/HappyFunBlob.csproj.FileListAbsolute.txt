@@ -1,0 +1,32 @@
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\Content\MainFont.xnb
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\Content\bargraphbar.xnb
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\Content\gaus2d.xnb
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\Content\RawTexture.xnb
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\Content\Level0.txt
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\Content\Level1.txt
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\HappyFunBlob.exe.manifest
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\HappyFunBlob.application
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\HappyFunBlob.exe
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\bin\x86\Release\HappyFunBlob.pdb
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\obj\x86\Release\HappyFunBlob.exe.manifest
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\obj\x86\Release\HappyFunBlob.application
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\obj\x86\Release\HappyFunBlob.exe
+C:\Users\ian\Desktop\HappyFunBlob\HappyFunBlob\obj\x86\Release\HappyFunBlob.pdb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\Content\MainFont.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\Content\bargraphbar.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\Content\gaus2d.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\Content\RawTexture.xnb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\Content\Level0.txt
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\Content\Level1.txt
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\HappyFunBlob.exe.manifest
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\HappyFunBlob.application
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\HappyFunBlob.exe
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Release\HappyFunBlob.pdb
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\obj\x86\Release\HappyFunBlob.exe.manifest
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\obj\x86\Release\HappyFunBlob.application
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\obj\x86\Release\HappyFunBlob.exe
+C:\Users\ian\Desktop\Classes\311\EECS-311 Assignment 3\HappyFunBlob\obj\x86\Release\HappyFunBlob.pdb
