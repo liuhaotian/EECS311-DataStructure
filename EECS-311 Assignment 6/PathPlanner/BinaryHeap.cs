@@ -49,7 +49,20 @@ namespace PathPlanner
         /// <returns></returns>
         public Node ExtractMin()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            Node ret = data[0];
+            if (1 == count)
+            {
+                count--;
+                return ret;
+            }
+            else
+            {
+                Swap(0, count - 1);
+                count--;
+                MoveDown(0);
+                return ret;
+            }
         }
 
         /// <summary>
@@ -58,7 +71,15 @@ namespace PathPlanner
         /// </summary>
         public void DecreasePriority(Node n, double priority)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if(priorities[n.QueuePosition] < priority){
+                priorities[n.QueuePosition] = priority;
+                MoveDown(n.QueuePosition);
+            }
+            else{
+                priorities[n.QueuePosition] = priority;
+                MoveUp(n.QueuePosition);
+            }
         }
 
         /// <summary>
@@ -68,7 +89,16 @@ namespace PathPlanner
         /// <param name="position"></param>
         void MoveUp(int position)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if (position != 0)
+            {
+                int parent = Parent(position);
+                if (priorities[parent] > priorities[position])
+                {
+                    Swap(parent, position);
+                    MoveUp(parent);
+                }
+            }
         }
 
         /// <summary>
@@ -77,7 +107,35 @@ namespace PathPlanner
         /// </summary>
         /// <param name="position"></param>
         void MoveDown(int position) {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            int left = LeftChild(position);
+            int right = RightChild(position);
+            if (left < count && priorities[position] > priorities[left])
+            {
+                if (right >= count || priorities[right] > priorities[left])
+                {
+                    Swap(position, left);
+                    MoveDown(left);
+                }
+                else
+                {
+                    Swap(position, right);
+                    MoveDown(right);
+                }
+            }
+            else if (right < count && priorities[position] > priorities[right] && priorities[left] > priorities[right])
+            {
+                if (left >= count || priorities[right] < priorities[left])
+                {
+                    Swap(position, right);
+                    MoveDown(right);
+                }
+                else
+                {
+                    Swap(position, left);
+                    MoveDown(left);
+                }
+            }
         }
 
         /// <summary>

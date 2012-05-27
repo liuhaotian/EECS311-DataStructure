@@ -30,7 +30,54 @@ namespace PathPlanner
         /// <returns>The path, represented as a list of nodes beginning with start and ending with end.</returns>
         public List<Node> FindPath(Node start, Node end)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            List<Node> ret = new List<Node>(Nodes.Length);
+            var heap = new BinaryHeap(Nodes.Length);
+            
+            double MaxCost = 0;
+            foreach(Node tempnode in Nodes){
+                foreach (UndirectedEdge tempedge in tempnode.Edges){
+                    MaxCost += tempedge.Cost;
+                }
+            }
+            MaxCost += 1;
+
+            foreach (Node tempnode in Nodes)
+            {
+                tempnode.NodeCost = MaxCost;
+                heap.Add(tempnode, MaxCost);
+            }
+            heap.DecreasePriority(start, 0);
+            start.NodeCost = 0;
+            start.Predecessor = null;
+
+            while (heap.Count != 0)
+            {
+                Node tempnode = heap.ExtractMin();
+                foreach (UndirectedEdge tempedge in tempnode.Edges)
+                {
+                    Node adjacent = tempedge.A;
+                    if (adjacent == tempnode) adjacent = tempedge.B;
+
+                    if (adjacent.NodeCost > tempedge.Cost + tempnode.NodeCost)
+                    {
+                        adjacent.NodeCost = tempedge.Cost + tempnode.NodeCost;
+                        heap.DecreasePriority(adjacent, adjacent.NodeCost);
+                        adjacent.Predecessor = tempnode;
+                    }
+                }
+            }
+
+            Node prevnode = end;
+            ret.Add(prevnode);
+            while (prevnode.Predecessor != null)
+            {
+                prevnode = prevnode.Predecessor;
+                ret.Add(prevnode);
+            }
+
+            ret.Reverse();
+            return ret;
         }
 
         #region Utility functions
