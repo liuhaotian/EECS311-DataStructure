@@ -251,12 +251,82 @@ namespace HappyFunBlob
 
         public void InsertionDepthSort()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            //particles = new Particle[count];
+            Particle temp;
+            for (int i = 0; i < particles.Length - 1; i++)
+            {
+                for (int j = i; j >= 0; j--)
+                {
+                    if (particles[j].depth < particles[j + 1].depth)
+                    {
+                        temp = particles[j + 1];
+                        particles[j + 1] = particles[j];
+                        particles[j] = temp;
+                    }
+                    else
+                        break;
+                }
+            }
+        }
+
+        private void QuickSort(int start, int end){
+            
+            if(start >= end)
+                return;
+            else if( start + 1 == end){
+                if(particles[start].depth > particles[end].depth){
+                    Particle temp = particles[end];
+                    particles[end] = particles[start];
+                    particles[start] = temp;
+                }
+                return;
+            }
+            else{
+                //int pivot = (start + end) / 2;
+                int middle = (start + end) / 2;
+                Particle pivot = particles[middle];
+                int head, tail;
+                head = start; tail = end;
+
+                Particle temp = particles[end];
+                particles[end] = particles[middle];
+                particles[middle] = temp;
+
+                tail--;
+
+                while(head <= tail - 1){
+                    if(particles[head].depth < pivot.depth)head++;
+                    if(particles[tail].depth >= pivot.depth)tail--;
+                        
+                    if(particles[head].depth >= pivot.depth && particles[tail].depth < pivot.depth){
+                        temp = particles[tail];
+                        particles[tail] = particles[head];
+                        particles[head] = temp;
+                    }
+                }
+                if(particles[head].depth >= pivot.depth){
+                    temp = particles[end];
+                    particles[end] = particles[head];
+                    particles[head] = temp;
+                    QuickSort(start, head - 1);
+                    QuickSort(head + 1, end);
+                }
+                else if(particles[tail].depth < pivot.depth){
+                    temp = particles[end];
+                    particles[end] = particles[tail + 1];
+                    particles[tail + 1] = temp;
+                    QuickSort(start, tail);
+                    QuickSort(tail + 2, end);
+                }
+            }
         }
 
         public void QuicksortDepthSort()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            QuickSort(0, particles.Length - 1);
+
         }
 
         public bool IsDepthSorted()

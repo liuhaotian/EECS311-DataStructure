@@ -71,7 +71,8 @@ namespace HappyFunBlob
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return Value;
         }
     }
 
@@ -95,7 +96,8 @@ namespace HappyFunBlob
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return dict.Lookup(VariableName);
         }
     }
 
@@ -131,7 +133,9 @@ namespace HappyFunBlob
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            dict.Store(VariableName, ValueExpression.Run(dict));
+            return ValueExpression.Run(dict);
         }
     }
 
@@ -164,7 +168,8 @@ namespace HappyFunBlob
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return ObjectExpression.Run(dict).GetMemberValue(MemberName);
         }
     }
 
@@ -203,7 +208,9 @@ namespace HappyFunBlob
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            ObjectExpression.Run(dict).SetMemberValue(MemberName, ValueExpression.Run(dict));
+            return ValueExpression.Run(dict);
         }
     }
 
@@ -249,7 +256,15 @@ namespace HappyFunBlob
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            object[] valveArguments = new object[Arguments.Length];
+            int index = 0;
+            foreach (var arg in Arguments)
+            {
+                valveArguments[index] = arg.Run(dict);
+                index++;
+            }
+            return ObjectExpression.Run(dict).CallMethod(MethodName, valveArguments);
         }
     }
 
@@ -276,7 +291,15 @@ namespace HappyFunBlob
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            throw new NotImplementedException();
+            object[] valveChildren = new object[Children.Length];
+            int index = 0;
+            foreach (var arg in Children)
+            {
+                valveChildren[index] = arg.Run(dict);
+                index++;
+            }
+            //throw new NotImplementedException();
+            return Interpreter.GenericOperator(Label, valveChildren);
         }
     }
 }
