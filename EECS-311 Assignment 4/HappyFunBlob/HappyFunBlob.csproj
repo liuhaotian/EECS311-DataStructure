@@ -126,6 +126,7 @@
   <ItemGroup>
     <Compile Include="BSPTree.cs" />
     <Compile Include="Block.cs" />
+    <Compile Include="ChainedHashtable.cs" />
     <Compile Include="Dictionary.cs" />
     <Compile Include="DictionaryException.cs" />
     <Compile Include="FrameRateCounter.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="MathUtil.cs" />
     <Compile Include="MeshBuilder.cs" />
     <Compile Include="Obstacle.cs" />
+    <Compile Include="OpenAddressedHashtable.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Parsing.cs" />
     <Compile Include="ParticleSystem.cs" />
